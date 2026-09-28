@@ -35,7 +35,7 @@ int main(){
 
     sort(arr.begin(), arr.end());
 
-    for(int i = 0; i < 3; i++){
+    for(int i = 0; i < k; i++){
         cout << arr[i] << endl;
     }
 
