@@ -1,8 +1,10 @@
 .vscode
 .DS_Store
 
-test.cpp
+test*
 
 *.class
 
 .metals
+
+tempCodeRunnerFile*

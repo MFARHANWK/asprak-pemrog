@@ -86,10 +86,8 @@ int main(){
 
     int start, end;
     double totalLuas = 0;
-    cin >> start;
 
-    while(1){
-        if(start == -9) break;
+    while(cin >> start && start != -9){
 
         cin >> end;
 

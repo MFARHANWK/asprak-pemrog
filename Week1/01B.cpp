@@ -38,7 +38,8 @@ int main(){
 
     double variance = sigma / (passed - 1);
 
-    cout << fixed << setprecision(2) << mean << " " << fixed << setprecision(2) << variance << endl;
+    cout << fixed << setprecision(2);
+    cout << mean << " " << variance << endl;
 
     return 0;
 }

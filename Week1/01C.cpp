@@ -1,5 +1,6 @@
 #include <iostream>
 #include <vector>
+#include <algorithm>
 using namespace std;
 
 int main(){
@@ -9,10 +10,13 @@ int main(){
     vector<float>total_bobot;
     float bobot;
 
+
     for(int i = 0; i < n; i++){
         cin >> bobot;
         total_bobot.push_back(bobot);
     }
+
+    sort(total_bobot.begin(), total_bobot.end(), greater<float>());
 
     float total = 0;
 
