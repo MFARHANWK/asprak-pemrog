@@ -8,3 +8,6 @@ test*
 .metals
 
 tempCodeRunnerFile*
+
+.bsp
+.scala-build
